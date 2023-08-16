@@ -26,11 +26,11 @@ scissors = '''
       (____)
 ---.__(___)
 '''
+
 print("Let's play Rock, Paper, Scissors!\n")
 player_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper, or 2 for Scissors.\n\n"))
-min = 0
-max = 2
-computer_choice = random.randint(min, max)
+
+computer_choice = random.randint(0, 2)
 
 if player_choice == 0:
     print("\nPlayer's Choice:\n")
