@@ -36,6 +36,7 @@ if player_choice == 0:
     print("\nPlayer's Choice:\n")
     print(rock + "\n")
     print("Computer's Choice:\n")
+
     if computer_choice == 0:
         print(rock)
         print("\n\nDraw")
@@ -46,10 +47,11 @@ if player_choice == 0:
         print(scissors)
         print("\n\nYou Win!")
 
-if player_choice == 1:
+elif player_choice == 1:
     print("\nPlayer's Choice:\n")
     print(paper + "\n")
     print("Computer's Choice:\n")
+
     if computer_choice == 0:
         print(rock)
         print("\n\nYou Win!")
@@ -60,10 +62,11 @@ if player_choice == 1:
         print(scissors)
         print("\n\nYou Lose :(")
 
-if player_choice == 2:
+elif player_choice == 2:
     print("\nPlayer's Choice:\n")
     print(scissors + "\n")
     print("Computer's Choice:\n")
+
     if computer_choice == 0:
         print(rock)
         print("\n\nYou Lose :(")
@@ -73,3 +76,5 @@ if player_choice == 2:
     else:
         print(scissors)
         print("\n\nDraw")
+else:
+    print("Invalid input.")
